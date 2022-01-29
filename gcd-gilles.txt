@@ -1,0 +1,25 @@
+00 {42-Byte Prgm}
+01 LBL “GCDGL”
+02 X>Y?
+03 X<>Y
+04 STO 00  \\ store min in R00
+05 X<>Y
+06 STO 01  \\ store max in R01
+07 LBL 00  \\ main loop ----------------------
+08 ENTER
+09 RCL÷ 00
+10 IP
+11 RCL* 00
+12 –
+13 X=0?  
+14 GTO 01
+15 STO 00
+16 X<>Y
+17 STO 01
+18 GTO 00
+19 LBL 01   \\ display GCD ---------------------
+20 RCL 00
+21 “GCD:”
+22 ARCL ST X
+23 AVIEW
+24 END

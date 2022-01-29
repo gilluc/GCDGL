@@ -1,0 +1,27 @@
+00 {42-Byte Prgm}
+01 LBL “GCD”
+02 X<Y?
+03 X<>Y
+04 STO 01  \\ store maximum in R01
+05 X<>Y
+06 STO 00  \\ store minimum in R00
+07 LBL 00 \\ main loop
+08 RCL 01
+09 ENTER
+10 RCL÷ 00
+11 IP
+12 RCL* 00
+13 –
+14 X=0?  \\ is max – IP(min/max)*min = 0?
+15 GTO 01
+16 X<>Y
+17 STO 01
+18 X<>Y
+19 STO 00
+20 GTO 00
+21 LBL 01 \\ display GCD
+22 RCL 00
+23 “GCD:”
+24 ARCL ST X
+25 AVIEW
+26 END

@@ -10,3 +10,6 @@ I got inspiration from Edward Shore who created the original version here : http
 
 I saw that i can optimize its code by removing 2 lines ... (yeah!).
 I rewrote it!
+
+Then, i found the LCMGCD code from Takayuki HOSODA here : http://www.finetune.co.jp/~lyuka/technote/factor/lcmgcd-42s.html
+What a great code !

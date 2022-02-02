@@ -1,0 +1,16 @@
+01  LBL "GCD"
+02  RCL Y
+03  RCL Y
+04  LBL 01
+05  MOD
+06  LASTX
+07  X<>Y
+08  X#0?
+09  GTO 01
+10  +
+11  ST/ T
+12  /
+13  ST* Y
+14  X<>Y
+15  LASTX
+16  END

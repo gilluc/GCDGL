@@ -13,3 +13,6 @@ I rewrote it!
 
 Then, i found the LCMGCD code from Takayuki HOSODA here : http://www.finetune.co.jp/~lyuka/technote/factor/lcmgcd-42s.html
 What a great code !
+
+Finally, i found the LCMGCD code from Jean-Marc Baillard here : http://hp41programs.yolasite.com/bezout.php
+The master?
